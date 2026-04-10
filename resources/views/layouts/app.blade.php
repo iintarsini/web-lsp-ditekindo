@@ -45,8 +45,8 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="{{ asset('template/assets/img/logo.webp') }}" alt="Logo">
-        <h1 class="sitename">Axis</h1>
+        <img src="{{ asset('template/assets/img/ditekindo.png') }}" alt="Logo">
+        {{-- <h1 class="sitename">LSP Ditekindo</h1> --}}
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -91,8 +91,8 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="hero-content">
-              <h1 data-aos="fade-up" data-aos-delay="200">Siap Jadi Tenaga Kerja Ahli yang Diakui Negara?</h1>
-              <p data-aos="fade-up" data-aos-delay="300">Bergabunglah dengan ribuan profesional lainnya yang telah tervalidasi. Daftarkan diri Anda untuk jadwal uji kompetensi batch terdekat.</p>
+              <h1 data-aos="fade-up" data-aos-delay="200">Skill Udah Oke, Tapi Masa Belum Diakui Negara?</h1>
+              <p data-aos="fade-up" data-aos-delay="300">Jangan biarkan potensimu stuck tanpa lisensi resmi. Jadikan dirimu kandidat paling dicari perusahaan dengan sertifikat berlogo Garuda. Proses sat-set, masa depan makin terjamin!</p>
               <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
                 <a href="#about" class="btn-primary">Hubungi Kami</a>
                 <a href="https://youtu.be/xhtrfvivRu4?si=pZaG7QN-a0QwYigP" class="btn-secondary glightbox">
@@ -119,7 +119,7 @@
 
           <div class="col-lg-6">
             <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
-              <img src="assets/img/about/about-square-10.webp" alt="Business Success" class="img-fluid">
+              <img src="/template/assets/img/about/alika-1.webp" alt="Business Success" class="img-fluid">
               <div class="floating-card" data-aos="zoom-in" data-aos-delay="600">
                 <div class="card-icon">
                   <i class="bi bi-graph-up-arrow"></i>
@@ -164,14 +164,14 @@
               </div> --}}
 
               <div class="cta-section">
-                <a href="#" team="" class="btn-outline">Meet Our Team</a>
+                <a href="#" team="" class="btn-outline">Konsultasi Sekarang</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="image-wrapper">
-              <img src="assets/img/about/about-square-12.webp" alt="About us" class="img-fluid">
+              <img src="/template/assets/img/about/gedung.png" alt="About us" class="img-fluid">
               <div class="floating-card" data-aos="zoom-in" data-aos-delay="500">
                 <div class="card-content">
                   <div class="icon">
@@ -196,7 +196,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Services</span>
+        <span class="subtitle">Skema</span>
         <h2>Skema Sertifikasi</h2>
         <p>Beragam skema sertifikasi yang dirancang untuk mendukung pengembangan kompetensi dan kesiapan kerja di dunia profesional</p>
       </div><!-- End Section Title -->
@@ -208,7 +208,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item">
               <div class="service-icon">
-                <i class="bi bi-graph-up-arrow"></i>
+                <i class="bi bi-code-slash"></i>
               </div>
               <h3>Web Developer</h3>
               <p>Web developer – Merancang, membangun, dan memelihara situs web dan aplikasi web…</p>
@@ -221,7 +221,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item">
               <div class="service-icon">
-                <i class="bi bi-palette"></i>
+                <i class="bi bi-gear-wide-connected"></i>
               </div>
               <h3>Staf Operasi Layanan IT</h3>
               <p>Memastikan kelancaran operasi teknologi informasi dalam suatu organisasi…</p>
@@ -234,7 +234,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item">
               <div class="service-icon">
-                <i class="bi bi-code-slash"></i>
+                <i class="bi bi-graph-up"></i>
               </div>
               <h3>Data Analyst</h3>
               <p>Data Analyst menguasai keterampilan dalam mengumpulkan, memproses, dan memvalidasi data dari berbagai sumber…</p>
@@ -247,7 +247,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item">
               <div class="service-icon">
-                <i class="bi bi-megaphone"></i>
+                <i class="bi bi-brush"></i>
               </div>
               <h3>Desain Grafis Muda</h3>
               <p>Mendukung tim kreatif dalam menciptakan materi visual yang berkualitas tinggi…</p>
@@ -260,7 +260,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item">
               <div class="service-icon">
-                <i class="bi bi-people"></i>
+                <i class="bi bi-bezier2"></i>
               </div>
               <h3>Desain Grafis Madya</h3>
               <p>Skema Desain grafis adalah proses menciptakan konten visual yang mengkomunikasikan pesan atau informasi dengan cara yang estetis dan efektif</p>
@@ -273,7 +273,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item">
               <div class="service-icon">
-                <i class="bi bi-bar-chart"></i>
+                <i class="bi bi-megaphone"></i>
               </div>
               <h3>Digital Marketing</h3>
               <p>Strategi pemasaran menggunakan teknologi digital untuk mencapai target…</p>
@@ -294,7 +294,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Why Us</span>
+        <span class="subtitle">collaboration</span>
         {{-- <h2>Why Choose Us</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
       </div><!-- End Section Title --> --}}
@@ -310,7 +310,7 @@
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="image-wrapper">
-              <img src="assets/img/about/about-8.webp" alt="Professional team collaboration" class="img-fluid">
+              <img src="/template/assets/img/about/mitra.png" alt="Professional team collaboration" class="img-fluid">
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div class="feature-item">
                 <div class="icon-wrapper">
-                  <i class="bi bi-lightbulb"></i>
+                  <i class="bi bi-person-check"></i>
                 </div>
                 <div class="feature-content">
                     
@@ -335,7 +335,7 @@
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
               <div class="feature-item">
                 <div class="icon-wrapper">
-                  <i class="bi bi-award"></i>
+                  <i class="bi bi-cloud-check"></i>
                 </div>
                 <div class="feature-content">
                   <h3 class="text-start"> Proses Digital & Efisien</h3>
@@ -347,7 +347,7 @@
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
               <div class="feature-item">
                 <div class="icon-wrapper">
-                  <i class="bi bi-headset"></i>
+                  <i class="bi bi-file-earmark-check"></i>
                 </div>
                 <div class="feature-content">
                   <h3 class="text-start"> Lisensi BNSP</h3>
@@ -403,7 +403,7 @@
                 <div class="row g-4">
                   <div class="col-md-6">
                     <div class="project-visual">
-                      <img src="assets/img/portfolio/portfolio-1.webp" alt="Enterprise Digital Platform" class="img-fluid" loading="lazy">
+                      <img src="{{ asset('template/assets/img/portfolio/portfolio-1.webp') }}" alt="Enterprise Digital Platform" class="img-fluid" loading="lazy">
                       <div class="project-overlay">
                         <div class="overlay-content">
                           <a href="assets/img/portfolio/portfolio-1.webp" class="view-project glightbox" aria-label="View project image">
@@ -443,7 +443,7 @@
                 <div class="row g-4">
                   <div class="col-md-6 order-md-2">
                     <div class="project-visual">
-                      <img src="assets/img/portfolio/portfolio-3.webp" alt="SaaS Product Suite" class="img-fluid" loading="lazy">
+                      <img src="{{ asset('template/assets/img/portfolio/portfolio-3.webp') }}" alt="SaaS Product Suite" class="img-fluid" loading="lazy">
                       <div class="project-overlay">
                         <div class="overlay-content">
                           <a href="assets/img/portfolio/portfolio-3.webp" class="view-project glightbox" aria-label="View project image">
@@ -483,7 +483,7 @@
                 <div class="row g-4">
                   <div class="col-md-6">
                     <div class="project-visual">
-                    <img src="{{ asset('template/assets/img/about/nama-foto.jpg') }}" alt="Brand Transformation">   
+                    <a href="assets/img/portfolio/portfolio-4.webp" class="view-project glightbox" aria-label="View project image">   
                       <div class="project-overlay">
                         <div class="overlay-content">
                           <a href="assets/img/portfolio/portfolio-5.webp" class="view-project glightbox" aria-label="View project image">
@@ -955,7 +955,6 @@
               </div>
               <div class="info-content">
                 <h4>Let's Connect</h4>
-                <p>We're here to discuss your vision and explore how we can bring it to life together.</p>
               </div>
             </div>
 
@@ -967,7 +966,7 @@
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Email us</span>
-                  <span class="detail-value">contact@example.com</span>
+                  <span class="detail-value">lspditekindo@gamil.com</span>
                 </div>
               </div>
 
@@ -977,7 +976,7 @@
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Call us</span>
-                  <span class="detail-value">+1 (555) 432-8976</span>
+                  <span class="detail-value">+62 878-7211-4308</span>
                 </div>
               </div>
 
@@ -987,7 +986,7 @@
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Visit us</span>
-                  <span class="detail-value">547 Madison Avenue<br>New York, NY 10022</span>
+                  <span class="detail-value">Jl. Sultan Ageng Tirtayasa No.12, Kedungjaya, Kec. Kedawung, Kabupaten Cirebon, Jawa Barat 45611</span>
                 </div>
               </div>
 
